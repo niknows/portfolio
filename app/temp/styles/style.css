@@ -354,3 +354,18 @@ body{
 * {
   box-sizing: border-box;
 }
+
+.large-hero__title{
+    font-size: 3.75rem;
+    color: #F27C56;
+  }
+
+.page-section {
+  padding: 3.4375rem 0;
+}
+
+.wrapper {
+  margin: 0 auto;
+  max-width: 1236px;
+  padding: 0 2.625rem;
+}
