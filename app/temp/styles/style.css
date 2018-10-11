@@ -355,9 +355,18 @@ body{
   box-sizing: border-box;
 }
 
-.large-hero__title{
+.large-hero__title {
     font-size: 3.75rem;
-    color: #F27C56;
+    color: #313C48;
+  }
+
+.large-hero--l-border {
+    border-left: 2.0625rem;
+    border-right: 0;
+    border-top: 0;
+    border-bottom: 0;
+    border-style: solid;
+    border-color: #5AA6FA;
   }
 
 .page-section {
@@ -368,4 +377,40 @@ body{
   margin: 0 auto;
   max-width: 1236px;
   padding: 0 2.625rem;
+
 }
+
+.wrapper--l-border {
+    border-left: 0;
+    border-right: 3.25rem;;
+    border-top: 0;
+    border-bottom: 0;
+    border-style: solid;
+    border-color: #5AA6FA;
+  }
+
+.text-color--orange {
+    color: #F27C56;
+  }
+
+.text-color--blue {
+    color: #5AA6FA;
+  }
+
+.text-color--dark {
+    color: #313C48;
+  }
+
+.row::after{
+    content: "";
+    clear: both;
+    display: table;
+  }
+
+@media (min-width: 800px){
+
+    .row__medium-6 {
+      width: 50%;
+      float: left;
+    }
+  }
