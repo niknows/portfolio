@@ -356,8 +356,15 @@ body{
 }
 
 .large-hero__title {
-    font-size: 3.75rem;
+    width: 50%;
+    font-size: 4rem;
     color: #313C48;
+    margin: 0;
+  }
+
+.large-hero__text {
+    width: 60%;
+    margin: 0;
   }
 
 .large-hero--l-border {
@@ -413,4 +420,10 @@ body{
       width: 50%;
       float: left;
     }
+  }
+
+.generic-content-container p {
+    line-height: 1.5;
+    letter-spacing: 0.3px;
+    font-size: 1rem;
   }
