@@ -356,20 +356,28 @@ body{
 }
 
 .large-hero {
-
+  position: relative;
   height: 100vh;
 
 }
 
 .large-hero__title {
-    width: 50%;
-    font-size: 4rem;
+    font-size: 7rem;
     color: #313C48;
     margin: 0;
+    line-height: 1;
+  }
+
+.large-hero__text-content {
+    position: absolute;
+    top: 40%;
+    -webkit-transform: translateY(-50%);
+            transform: translateY(-50%);
   }
 
 .large-hero__text {
-    width: 60%;
+    padding-top: 4.78125rem;
+    width: 70%;
     margin: 0;
   }
 
