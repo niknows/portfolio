@@ -1,0 +1,35 @@
+.large-hero {
+  position: relative;
+  height: 100vh;
+
+  &__title {
+    padding-left: 4.375rem;
+    font-size: 7rem;
+    color: $mainDark;
+    margin: 0;
+    line-height: 1;
+  }
+
+  &__text-content {
+    position: absolute;
+    top: 40%;
+    transform: translateY(-50%);
+  }
+
+  &__text {
+    padding-left: 4.375rem;
+    padding-top: 2.5rem;
+    width: 70%;
+    margin: 0;
+  }
+
+  &--l-border {
+    border-left: 3.25rem;
+    border-right: 0;
+    border-top: 0;
+    border-bottom: 0;
+    border-style: solid;
+    border-color: $mainBlue;
+  }
+
+}

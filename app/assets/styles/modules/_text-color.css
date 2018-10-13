@@ -1,0 +1,15 @@
+.text-color {
+
+  &--orange {
+    color: $mainOrange;
+  }
+
+  &--blue {
+    color: $mainBlue;
+  }
+
+  &--dark {
+    color: $mainDark;
+  }
+
+}

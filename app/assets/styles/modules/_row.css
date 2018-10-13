@@ -1,0 +1,12 @@
+.row {
+  @mixin clearfix;
+  @mixin atMedium {
+
+    &__medium-6 {
+      width: 50%;
+      float: left;
+    }
+
+  }
+
+}

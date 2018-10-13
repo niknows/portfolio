@@ -1,0 +1,7 @@
+.generic-content-container {
+  p {
+    line-height: 1.6;
+    letter-spacing: 1px;
+    font-size: 1rem;
+  }
+}
